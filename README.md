@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/itzg/stackdriver-spring-boot-autoconfigure.svg?style=svg)](https://circleci.com/gh/itzg/stackdriver-spring-boot-autoconfigure)
 [![Release](https://jitpack.io/v/itzg/stackdriver-spring-boot-autoconfigure.svg)](https://jitpack.io/#itzg/stackdriver-spring-boot-autoconfigure)
 
 This module provides a Spring Boot auto-configuration to export actuator metrics to 

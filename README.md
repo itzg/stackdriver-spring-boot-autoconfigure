@@ -1,5 +1,11 @@
+[![Release](https://jitpack.io/v/itzg/stackdriver-spring-boot-autoconfigure.svg)](https://jitpack.io/#itzg/stackdriver-spring-boot-autoconfigure)
+
 This module provides a Spring Boot auto-configuration to export actuator metrics to 
 Google Cloud's Stackdriver.
+
+# Adding to your project
+
+Follow the instructions [at JitPack](https://jitpack.io/#itzg/stackdriver-spring-boot-autoconfigure).
 
 # Application configuration
 

@@ -35,6 +35,10 @@
     <target.version>1.8</target.version>
   </properties>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/itzg/stackdriver-spring-boot-autoconfigure.git</developerConnection>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -81,6 +85,15 @@
         <configuration>
           <source>${source.version}</source>
           <target>${target.version}</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <tagNameFormat>@{project.version}</tagNameFormat>
+          <pushChanges>false</pushChanges>
         </configuration>
       </plugin>
     </plugins>

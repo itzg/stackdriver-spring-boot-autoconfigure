@@ -20,7 +20,7 @@
 
   <groupId>me.itzg</groupId>
   <artifactId>stackdriver-spring-boot-autoconfigure</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1.0</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -35,7 +35,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/itzg/stackdriver-spring-boot-autoconfigure.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.1.0</tag>
   </scm>
 
   <dependencies>

@@ -39,3 +39,15 @@ The metric shown in the example was declared like the following:
     messagesPost = meterRegistry.counter("messages", "stage", "post");
   }
 ```
+
+# Development
+
+## Preparing a release
+
+Use the Maven release plugin to perform the build, tag, and update
+
+```bash
+mvn release:prepare
+```
+
+With that completed, git push the commits and tag to the repo.
